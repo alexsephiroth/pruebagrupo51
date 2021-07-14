@@ -9,6 +9,7 @@ public class App
     public static void main( String[] args )
     {
         Nota notavacia = new Nota();
+        Materia materiavacia=new Materia();
         /*
         System.out.println("notavacia");
         System.out.println("valor escala100 es " + notavacia.getEscala100());
@@ -16,6 +17,7 @@ public class App
         System.out.println("valor cualitativa es " + notavacia.getCualitativa());
         */
         notavacia.mostrarNotasConsola();
+        materiavacia.mostrarMateria();
 
         Nota notaescala5= new Nota(4.0);
         /*
